@@ -1,0 +1,19 @@
+# Node modules and build output
+node_modules/
++/.node_modules/  # catches hidden ones if needed
+
+# Environment variables
+.env
++.env.local
++.env.*.local
+
+# Logs
+logs/
+*.log
+...
+
+# Editor settings
+.vscode/
+!.vscode/extensions.json
+.idea/
+...
